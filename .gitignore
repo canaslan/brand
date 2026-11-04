@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Local drafts (case-insensitive).
+/[bB][rR][aA][nN][dD].[mM][dD]
+/[tT][oO][dD][oO].[mM][dD]
+
+# Local editor settings.
+/.vscode/
+/*.code-workspace

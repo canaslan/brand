@@ -1,0 +1,837 @@
+{
+  "Base": {
+    "color": {
+      "grey": {
+        "100": {
+          "$type": "color",
+          "$value": "#E5E3DF",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#CCC9C3",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#B1AEA7",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#97938C",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "50": {
+          "$type": "color",
+          "$value": "#F7F6F3",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#7D7972",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#625F58",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#47443E",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#2C2A26",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "850": {
+          "$type": "color",
+          "$value": "#1E1C19",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#131210",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        }
+      },
+      "orange": {
+        "100": {
+          "$type": "color",
+          "$value": "#FFD6C2",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#FFB894",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#FF9966",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#FF7E3D",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "50": {
+          "$type": "color",
+          "$value": "#FFF1EB",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#FF6314",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#EB4E00",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#C24100",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#933506",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#66290A",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        }
+      },
+      "purple": {
+        "300": {
+          "$type": "color",
+          "$value": "#C4B5FD",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#6D28D9",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        }
+      },
+      "status-primitive": {
+        "amber": {
+          "$type": "color",
+          "$value": "#8F5F0A",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "amber-bright": {
+          "$type": "color",
+          "$value": "#F3C56B",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "amber-deep": {
+          "$type": "color",
+          "$value": "#302411",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "amber-strong": {
+          "$type": "color",
+          "$value": "#785008",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "amber-tint": {
+          "$type": "color",
+          "$value": "#FFF4DB",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "blue": {
+          "$type": "color",
+          "$value": "#1F56B8",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "blue-bright": {
+          "$type": "color",
+          "$value": "#95BBFA",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "blue-deep": {
+          "$type": "color",
+          "$value": "#17243A",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "blue-strong": {
+          "$type": "color",
+          "$value": "#1F56B8",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "blue-tint": {
+          "$type": "color",
+          "$value": "#EAF1FD",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "green": {
+          "$type": "color",
+          "$value": "#287445",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "green-bright": {
+          "$type": "color",
+          "$value": "#86D9A4",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "green-deep": {
+          "$type": "color",
+          "$value": "#142B1D",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "green-strong": {
+          "$type": "color",
+          "$value": "#22643B",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "green-tint": {
+          "$type": "color",
+          "$value": "#EAF5ED",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "red": {
+          "$type": "color",
+          "$value": "#C13838",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "red-bright": {
+          "$type": "color",
+          "$value": "#F49A9A",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "red-deep": {
+          "$type": "color",
+          "$value": "#321B1B",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "red-strong": {
+          "$type": "color",
+          "$value": "#A62E2E",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        },
+        "red-tint": {
+          "$type": "color",
+          "$value": "#FCECEC",
+          "$description": "Palette primitive. Prefer semantic tokens in components."
+        }
+      }
+    }
+  },
+  "Color/Light": {
+    "color": {
+      "border": {
+        "button": {
+          "$type": "color",
+          "$value": "{color.grey.900}",
+          "$description": "Semantic border/button color."
+        },
+        "control": {
+          "$type": "color",
+          "$value": "{color.grey.500}",
+          "$description": "Required control boundary on default and subtle surfaces; at least 3:1. Not for arbitrary fills."
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.grey.200}",
+          "$description": "Decorative border; not guaranteed 3:1. Use border.control when the boundary identifies a control."
+        },
+        "focus": {
+          "$type": "color",
+          "$value": "{color.orange.700}",
+          "$description": "Semantic border/focus color."
+        },
+        "strong": {
+          "$type": "color",
+          "$value": "{color.grey.300}",
+          "$description": "Decorative border; not guaranteed 3:1. Use border.control when the boundary identifies a control."
+        },
+        "subtle": {
+          "$type": "color",
+          "$value": "{color.grey.100}",
+          "$description": "Decorative border; not guaranteed 3:1. Use border.control when the boundary identifies a control."
+        }
+      },
+      "button": {
+        "active": {
+          "$type": "color",
+          "$value": "{color.orange.500}",
+          "$description": "Semantic button/active color."
+        },
+        "foreground": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.grey.900}",
+            "$description": "Text and icons on button.active and button.hovered backgrounds."
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{color.grey.50}",
+            "$description": "Text and icons on button.pressed. Bind pressed foregrounds explicitly; importing tokens does not rebind components."
+          }
+        },
+        "hovered": {
+          "$type": "color",
+          "$value": "{color.orange.600}",
+          "$description": "Semantic button/hovered color."
+        },
+        "pressed": {
+          "$type": "color",
+          "$value": "{color.orange.700}",
+          "$description": "Semantic button/pressed color."
+        }
+      },
+      "icon": {
+        "accent": {
+          "$type": "color",
+          "$value": "{color.orange.700}",
+          "$description": "Semantic icon/accent color."
+        },
+        "grey": {
+          "$type": "color",
+          "$value": "{color.grey.900}",
+          "$description": "Semantic icon/grey color."
+        },
+        "on-accent": {
+          "$type": "color",
+          "$value": "{color.grey.900}",
+          "$description": "Dark foreground on orange/500 or orange/600. Use button.foreground.pressed on orange/700."
+        }
+      },
+      "link": {
+        "active": {
+          "$type": "color",
+          "$value": "{color.orange.800}",
+          "$description": "Default link text on default and subtle surfaces. Underline inline links."
+        },
+        "hovered": {
+          "$type": "color",
+          "$value": "{color.orange.900}",
+          "$description": "Hovered link text on default and subtle surfaces."
+        },
+        "visited": {
+          "$type": "color",
+          "$value": "{color.purple.700}",
+          "$description": "Visited link text on default and subtle surfaces."
+        }
+      },
+      "nav-pill": {
+        "hovered": {
+          "$type": "color",
+          "$value": "{color.grey.200}",
+          "$description": "Semantic nav-pill/hovered color."
+        },
+        "resting": {
+          "$type": "color",
+          "$value": "{color.grey.100}",
+          "$description": "Semantic nav-pill/resting color."
+        },
+        "selected": {
+          "$type": "color",
+          "$value": "{color.orange.500}",
+          "$description": "Semantic nav-pill/selected color."
+        }
+      },
+      "status": {
+        "error": {
+          "background": {
+            "$type": "color",
+            "$value": "{color.status-primitive.red-tint}",
+            "$description": "Error surface; pair with matching status text/icon."
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{color.status-primitive.red-strong}",
+            "$description": "Error border on default, subtle, or matching status background. Include a non-color status cue."
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{color.status.error.text}",
+            "$description": "Compatibility foreground for original status/error; prefer explicit role tokens."
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{color.status-primitive.red-strong}",
+            "$description": "Error icon on default, subtle, or matching status background. Include a non-color status cue."
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{color.status-primitive.red-strong}",
+            "$description": "Error text on default, subtle, or matching status background. Include a non-color status cue."
+          }
+        },
+        "info": {
+          "background": {
+            "$type": "color",
+            "$value": "{color.status-primitive.blue-tint}",
+            "$description": "Info surface; pair with matching status text/icon."
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{color.status-primitive.blue-strong}",
+            "$description": "Info border on default, subtle, or matching status background. Include a non-color status cue."
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{color.status.info.text}",
+            "$description": "Compatibility foreground for original status/info; prefer explicit role tokens."
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{color.status-primitive.blue-strong}",
+            "$description": "Info icon on default, subtle, or matching status background. Include a non-color status cue."
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{color.status-primitive.blue-strong}",
+            "$description": "Info text on default, subtle, or matching status background. Include a non-color status cue."
+          }
+        },
+        "success": {
+          "background": {
+            "$type": "color",
+            "$value": "{color.status-primitive.green-tint}",
+            "$description": "Success surface; pair with matching status text/icon."
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{color.status-primitive.green-strong}",
+            "$description": "Success border on default, subtle, or matching status background. Include a non-color status cue."
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{color.status.success.text}",
+            "$description": "Compatibility foreground for original status/success; prefer explicit role tokens."
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{color.status-primitive.green-strong}",
+            "$description": "Success icon on default, subtle, or matching status background. Include a non-color status cue."
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{color.status-primitive.green-strong}",
+            "$description": "Success text on default, subtle, or matching status background. Include a non-color status cue."
+          }
+        },
+        "warning": {
+          "background": {
+            "$type": "color",
+            "$value": "{color.status-primitive.amber-tint}",
+            "$description": "Warning surface; pair with matching status text/icon."
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{color.status-primitive.amber-strong}",
+            "$description": "Warning border on default, subtle, or matching status background. Include a non-color status cue."
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{color.status.warning.text}",
+            "$description": "Compatibility foreground for original status/warning; prefer explicit role tokens."
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{color.status-primitive.amber-strong}",
+            "$description": "Warning icon on default, subtle, or matching status background. Include a non-color status cue."
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{color.status-primitive.amber-strong}",
+            "$description": "Warning text on default, subtle, or matching status background. Include a non-color status cue."
+          }
+        }
+      },
+      "surface": {
+        "accent": {
+          "$type": "color",
+          "$value": "{color.orange.600}",
+          "$description": "Semantic surface/accent color."
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.grey.50}",
+          "$description": "Semantic surface/default color."
+        },
+        "hovered": {
+          "$type": "color",
+          "$value": "{color.grey.200}",
+          "$description": "Semantic surface/hovered color."
+        },
+        "pressed": {
+          "$type": "color",
+          "$value": "{color.grey.300}",
+          "$description": "Semantic surface/pressed color."
+        },
+        "subtle": {
+          "$type": "color",
+          "$value": "{color.grey.100}",
+          "$description": "Semantic surface/subtle color."
+        }
+      },
+      "text": {
+        "accent": {
+          "$type": "color",
+          "$value": "{color.orange.800}",
+          "$description": "Accent text on default and subtle surfaces; not on accent fills."
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.grey.400}",
+          "$description": "Inactive controls only; not for readable secondary content."
+        },
+        "on-accent": {
+          "$type": "color",
+          "$value": "{color.grey.900}",
+          "$description": "Dark foreground on orange/500 or orange/600. Use button.foreground.pressed on orange/700."
+        },
+        "primary": {
+          "$type": "color",
+          "$value": "{color.grey.900}",
+          "$description": "Semantic text/primary color."
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.grey.700}",
+          "$description": "Semantic text/secondary color."
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{color.grey.600}",
+          "$description": "Supplementary text on default and subtle surfaces; at least 4.5:1."
+        }
+      }
+    }
+  },
+  "Color/Dark": {
+    "color": {
+      "border": {
+        "button": {
+          "$type": "color",
+          "$value": "{color.grey.50}",
+          "$description": "Semantic border/button color."
+        },
+        "control": {
+          "$type": "color",
+          "$value": "{color.grey.400}",
+          "$description": "Required control boundary on default and subtle surfaces; at least 3:1. Not for arbitrary fills."
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.grey.700}",
+          "$description": "Decorative border; not guaranteed 3:1. Use border.control when the boundary identifies a control."
+        },
+        "focus": {
+          "$type": "color",
+          "$value": "{color.orange.500}",
+          "$description": "Semantic border/focus color."
+        },
+        "strong": {
+          "$type": "color",
+          "$value": "{color.grey.600}",
+          "$description": "Decorative border; not guaranteed 3:1. Use border.control when the boundary identifies a control."
+        },
+        "subtle": {
+          "$type": "color",
+          "$value": "{color.grey.800}",
+          "$description": "Decorative border; not guaranteed 3:1. Use border.control when the boundary identifies a control."
+        }
+      },
+      "button": {
+        "active": {
+          "$type": "color",
+          "$value": "{color.orange.500}",
+          "$description": "Semantic button/active color."
+        },
+        "foreground": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.grey.900}",
+            "$description": "Text and icons on button.active and button.hovered backgrounds."
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{color.grey.50}",
+            "$description": "Text and icons on button.pressed. Bind pressed foregrounds explicitly; importing tokens does not rebind components."
+          }
+        },
+        "hovered": {
+          "$type": "color",
+          "$value": "{color.orange.600}",
+          "$description": "Semantic button/hovered color."
+        },
+        "pressed": {
+          "$type": "color",
+          "$value": "{color.orange.700}",
+          "$description": "Semantic button/pressed color."
+        }
+      },
+      "icon": {
+        "accent": {
+          "$type": "color",
+          "$value": "{color.orange.500}",
+          "$description": "Semantic icon/accent color."
+        },
+        "grey": {
+          "$type": "color",
+          "$value": "{color.grey.50}",
+          "$description": "Semantic icon/grey color."
+        },
+        "on-accent": {
+          "$type": "color",
+          "$value": "{color.grey.900}",
+          "$description": "Dark foreground on orange/500 or orange/600. Use button.foreground.pressed on orange/700."
+        }
+      },
+      "link": {
+        "active": {
+          "$type": "color",
+          "$value": "{color.orange.500}",
+          "$description": "Default link text on default and subtle surfaces. Underline inline links."
+        },
+        "hovered": {
+          "$type": "color",
+          "$value": "{color.orange.400}",
+          "$description": "Hovered link text on default and subtle surfaces."
+        },
+        "visited": {
+          "$type": "color",
+          "$value": "{color.purple.300}",
+          "$description": "Visited link text on default and subtle surfaces."
+        }
+      },
+      "nav-pill": {
+        "hovered": {
+          "$type": "color",
+          "$value": "{color.grey.600}",
+          "$description": "Semantic nav-pill/hovered color."
+        },
+        "resting": {
+          "$type": "color",
+          "$value": "{color.grey.700}",
+          "$description": "Semantic nav-pill/resting color."
+        },
+        "selected": {
+          "$type": "color",
+          "$value": "{color.orange.500}",
+          "$description": "Semantic nav-pill/selected color."
+        }
+      },
+      "status": {
+        "error": {
+          "background": {
+            "$type": "color",
+            "$value": "{color.status-primitive.red-deep}",
+            "$description": "Error surface; pair with matching status text/icon."
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{color.status-primitive.red-bright}",
+            "$description": "Error border on default, subtle, or matching status background. Include a non-color status cue."
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{color.status.error.text}",
+            "$description": "Compatibility foreground for original status/error; prefer explicit role tokens."
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{color.status-primitive.red-bright}",
+            "$description": "Error icon on default, subtle, or matching status background. Include a non-color status cue."
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{color.status-primitive.red-bright}",
+            "$description": "Error text on default, subtle, or matching status background. Include a non-color status cue."
+          }
+        },
+        "info": {
+          "background": {
+            "$type": "color",
+            "$value": "{color.status-primitive.blue-deep}",
+            "$description": "Info surface; pair with matching status text/icon."
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{color.status-primitive.blue-bright}",
+            "$description": "Info border on default, subtle, or matching status background. Include a non-color status cue."
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{color.status.info.text}",
+            "$description": "Compatibility foreground for original status/info; prefer explicit role tokens."
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{color.status-primitive.blue-bright}",
+            "$description": "Info icon on default, subtle, or matching status background. Include a non-color status cue."
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{color.status-primitive.blue-bright}",
+            "$description": "Info text on default, subtle, or matching status background. Include a non-color status cue."
+          }
+        },
+        "success": {
+          "background": {
+            "$type": "color",
+            "$value": "{color.status-primitive.green-deep}",
+            "$description": "Success surface; pair with matching status text/icon."
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{color.status-primitive.green-bright}",
+            "$description": "Success border on default, subtle, or matching status background. Include a non-color status cue."
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{color.status.success.text}",
+            "$description": "Compatibility foreground for original status/success; prefer explicit role tokens."
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{color.status-primitive.green-bright}",
+            "$description": "Success icon on default, subtle, or matching status background. Include a non-color status cue."
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{color.status-primitive.green-bright}",
+            "$description": "Success text on default, subtle, or matching status background. Include a non-color status cue."
+          }
+        },
+        "warning": {
+          "background": {
+            "$type": "color",
+            "$value": "{color.status-primitive.amber-deep}",
+            "$description": "Warning surface; pair with matching status text/icon."
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{color.status-primitive.amber-bright}",
+            "$description": "Warning border on default, subtle, or matching status background. Include a non-color status cue."
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{color.status.warning.text}",
+            "$description": "Compatibility foreground for original status/warning; prefer explicit role tokens."
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{color.status-primitive.amber-bright}",
+            "$description": "Warning icon on default, subtle, or matching status background. Include a non-color status cue."
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{color.status-primitive.amber-bright}",
+            "$description": "Warning text on default, subtle, or matching status background. Include a non-color status cue."
+          }
+        }
+      },
+      "surface": {
+        "accent": {
+          "$type": "color",
+          "$value": "{color.orange.600}",
+          "$description": "Semantic surface/accent color."
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.grey.900}",
+          "$description": "Semantic surface/default color."
+        },
+        "hovered": {
+          "$type": "color",
+          "$value": "{color.grey.700}",
+          "$description": "Semantic surface/hovered color."
+        },
+        "pressed": {
+          "$type": "color",
+          "$value": "{color.grey.600}",
+          "$description": "Semantic surface/pressed color."
+        },
+        "subtle": {
+          "$type": "color",
+          "$value": "{color.grey.850}",
+          "$description": "Semantic surface/subtle color."
+        }
+      },
+      "text": {
+        "accent": {
+          "$type": "color",
+          "$value": "{color.orange.500}",
+          "$description": "Accent text on default and subtle surfaces; not on accent fills."
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.grey.500}",
+          "$description": "Inactive controls only; not for readable secondary content."
+        },
+        "on-accent": {
+          "$type": "color",
+          "$value": "{color.grey.900}",
+          "$description": "Dark foreground on orange/500 or orange/600. Use button.foreground.pressed on orange/700."
+        },
+        "primary": {
+          "$type": "color",
+          "$value": "{color.grey.50}",
+          "$description": "Semantic text/primary color."
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.grey.200}",
+          "$description": "Semantic text/secondary color."
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{color.grey.400}",
+          "$description": "Supplementary text on default and subtle surfaces; at least 4.5:1."
+        }
+      }
+    }
+  },
+  "$themes": [
+    {
+      "id": "05876158-3f1e-5ea2-b2c0-9b46e1cd839d",
+      "name": "Light",
+      "group": "Color mode",
+      "description": "Light semantic colors with shared primitives.",
+      "isSource": false,
+      "selectedTokenSets": {
+        "Base": "enabled",
+        "Color/Light": "enabled"
+      }
+    },
+    {
+      "id": "651c9801-e632-594f-b0f5-2f34e446afa6",
+      "name": "Dark",
+      "group": "Color mode",
+      "description": "Dark semantic colors with shared primitives.",
+      "isSource": false,
+      "selectedTokenSets": {
+        "Base": "enabled",
+        "Color/Dark": "enabled"
+      }
+    }
+  ],
+  "$metadata": {
+    "tokenSetOrder": [
+      "Base",
+      "Color/Light",
+      "Color/Dark"
+    ],
+    "activeThemes": [
+      "Color mode/Light"
+    ],
+    "activeSets": [
+      "Base",
+      "Color/Light"
+    ]
+  }
+}
