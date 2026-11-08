@@ -13,19 +13,26 @@ This repository includes my design principles, color system, and typography toke
 
 ## Repository structure
 
-```text
-principles.md                How I think about design
-identity/
-  README.md                  Visual direction and resource index
-  color/
-    README.md                Color usage and import guidance
-    colors.tokens.json       Canonical color values and aliases
-    validate.py              Token and contrast checks
-    contrast-report.json     Generated validation results
-  typography/
-    README.md                Typography usage and units
-    typography.tokens.json   Shared typography values
-LICENSE                      MIT license
+```mermaid
+flowchart LR
+    root["brand/"]
+    root --> readme["README.md"]
+    root --> principles["principles.md"]
+    root --> identity["identity/"]
+    root --> license["LICENSE"]
+    root --> ignore[".gitignore"]
+
+    identity --> identity_readme["README.md"]
+    identity --> color["color/"]
+    identity --> typography["typography/"]
+
+    color --> color_readme["README.md"]
+    color --> color_tokens["colors.tokens.json"]
+    color --> validator["validate.py"]
+    color --> report["contrast-report.json"]
+
+    typography --> typography_readme["README.md"]
+    typography --> typography_tokens["typography.tokens.json"]
 ```
 
 ## Working with this repo
