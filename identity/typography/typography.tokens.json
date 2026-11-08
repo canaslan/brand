@@ -1,0 +1,172 @@
+{
+  "font-family": {
+    "sans": {
+      "$type": "string",
+      "$value": "Inter",
+      "$description": "Inter variable font used by the Figma designs."
+    },
+    "mono": {
+      "$type": "string",
+      "$value": "JetBrains Mono",
+      "$description": "Monospaced typeface for code, captions, metadata, technical labels."
+    }
+  },
+  "font-weight": {
+    "regular": {
+      "$type": "string",
+      "$value": "Regular"
+    },
+    "medium": {
+      "$type": "string",
+      "$value": "Medium"
+    },
+    "semibold": {
+      "$type": "string",
+      "$value": "SemiBold"
+    },
+    "bold": {
+      "$type": "string",
+      "$value": "Bold"
+    }
+  },
+  "size": {
+    "h1": {
+      "$type": "number",
+      "$value": 54
+    },
+    "h2": {
+      "$type": "number",
+      "$value": 24
+    },
+    "body-m": {
+      "$type": "number",
+      "$value": 16
+    },
+    "link-m": {
+      "$type": "number",
+      "$value": 14,
+      "$description": "Medium link size."
+    },
+    "mono-m": {
+      "$type": "number",
+      "$value": 14,
+      "$description": "Figma Mono/M font size."
+    },
+    "mono-regular": {
+      "$type": "number",
+      "$value": 16
+    },
+    "mono-s": {
+      "$type": "number",
+      "$value": 12
+    }
+  },
+  "line-height": {
+    "tight": {
+      "$type": "number",
+      "$value": 100,
+      "$description": "100% line height for headings."
+    },
+    "normal": {
+      "$type": "number",
+      "$value": 135,
+      "$description": "135% line height for body and monospace text."
+    },
+    "mono-m": {
+      "$type": "string",
+      "$value": "1.3125rem",
+      "$description": "Figma Mono/M line height, 21px at default root size."
+    },
+    "body": {
+      "$type": "string",
+      "$value": "1.6"
+    },
+    "heading": {
+      "$type": "string",
+      "$value": "1.15"
+    }
+  },
+  "letter-spacing": {
+    "link-inline": {
+      "$type": "string",
+      "$value": "-0.04em",
+      "$description": "Inline link tracking across all sizes."
+    },
+    "h1": {
+      "$type": "number",
+      "$value": -2,
+      "$description": "Tracking for the 54px H1."
+    },
+    "h2": {
+      "$type": "number",
+      "$value": -1.5,
+      "$description": "For 24px H2."
+    },
+    "body": {
+      "$type": "string",
+      "$value": "-0.002em"
+    },
+    "mono-regular": {
+      "$type": "number",
+      "$value": 0,
+      "$description": "JetBrains Mono at 16px. Mono is fixed-width — leave neutral."
+    },
+    "mono-small": {
+      "$type": "number",
+      "$value": 0,
+      "$description": "Neutral tracking for 12px monospace text."
+    },
+    "heading": {
+      "$type": "string",
+      "$value": "-0.048em"
+    }
+  },
+  "text-size": {
+    "80": {
+      "$type": "string",
+      "$value": "0.694rem"
+    },
+    "90": {
+      "$type": "string",
+      "$value": "0.833rem"
+    },
+    "100": {
+      "$type": "string",
+      "$value": "1rem"
+    },
+    "200": {
+      "$type": "string",
+      "$value": "1.2rem"
+    },
+    "300": {
+      "$type": "string",
+      "$value": "1.44rem"
+    },
+    "400": {
+      "$type": "string",
+      "$value": "1.728rem"
+    },
+    "500": {
+      "$type": "string",
+      "$value": "2.074rem"
+    },
+    "600": {
+      "$type": "string",
+      "$value": "2.488rem"
+    },
+    "700": {
+      "$type": "string",
+      "$value": "2.986rem"
+    }
+  },
+  "type-space": {
+    "heading-before": {
+      "$type": "string",
+      "$value": "2.25rem"
+    },
+    "paragraph": {
+      "$type": "string",
+      "$value": "1rem"
+    }
+  }
+}

@@ -2,13 +2,14 @@
 
 Public documents and resources for my design principles and visual identity.
 
-This initial publication includes my design principles and color system. Further brand and identity documentation will be added as it is ready.
+This repository includes my design principles, color system, and typography tokens. Further brand and identity documentation will be added as it is ready.
 
 ## Start here
 
 - [Design principles](principles.md): beliefs that guide my work.
 - [Visual identity](identity/README.md): visual direction and identity resources.
 - [Color](identity/color/README.md): palette, semantic tokens, import guidance, and validation.
+- [Typography](identity/typography/README.md): typefaces, shared tokens, and units.
 
 ## Repository structure
 
@@ -21,6 +22,9 @@ identity/
     colors.tokens.json       Canonical color values and aliases
     validate.py              Token and contrast checks
     contrast-report.json     Generated validation results
+  typography/
+    README.md                Typography usage and units
+    typography.tokens.json   Shared typography values
 LICENSE                      MIT license
 ```
 
@@ -36,7 +40,7 @@ python3 identity/color/validate.py
 
 Commit the regenerated contrast report with token changes. Any future CSS or other platform exports should be generated from the token source rather than maintained as separate palettes.
 
-Add typography, logos, imagery, or component documentation when those resources exist. A separate component design system is not part of v1.0. Use lowercase, hyphen-separated filenames and relative Markdown links between documents.
+Add logos, imagery, or component documentation when those resources exist. A separate component design system is not part of v1.0. Use lowercase, hyphen-separated filenames and relative Markdown links between documents.
 
 ## License
 

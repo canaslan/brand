@@ -12,5 +12,7 @@ This direction was recorded in the original brand notes as “copied from Github
 
 - [Color system](color/README.md): shared primitives, light and dark semantic themes, and usage guidance.
 - [Color tokens](color/colors.tokens.json): the canonical machine-readable palette.
+- [Typography](typography/README.md): typefaces, shared tokens, and units.
+- [Typography tokens](typography/typography.tokens.json): the shared type values.
 
-Typography, logos, and imagery are not yet defined here. Add each resource with its usage guidance when it is ready.
+Logos and imagery are not yet defined here. Add each resource with its usage guidance when it is ready.
